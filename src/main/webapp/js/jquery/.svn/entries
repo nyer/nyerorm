@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2869"
+   name=""
+   committed-date="2010-08-19T12:52:52.687935Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery"
+   last-author="dengjibin"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   name="external"
+   kind="dir"/>
+<entry
+   name="form"
+   kind="dir"/>
+<entry
+   name="themes"
+   kind="dir"/>
+<entry
+   committed-rev="1704"
+   name="jquery-1.4.2.js"
+   text-time="2012-02-22T06:46:48.656250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="c0ac4e323dfd52aaf1f80c9880b35e7b"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:40.546875Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   committed-rev="1704"
+   name="jquery-1.4.2.min.js"
+   text-time="2012-02-22T06:46:48.703125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="10092eee563dec2dca82b77d2cf5a1ae"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:40.562500Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

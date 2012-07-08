@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2085"
+   name=""
+   committed-date="2010-07-26T03:59:23.671875Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/themes/redmond/images"
+   last-author="huangjiu"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_flat_55_fbec88_40x100.png"
+   text-time="2012-02-22T06:46:35.546875Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="2b8885da50e2324557185fb0890ce2b7"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.250000Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_glass_85_dfeffc_1x400.png"
+   text-time="2012-02-22T06:46:35.578125Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="e4710322ded115c72efbd0756234b6f2"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.265625Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_f9bd01_256x240.png"
+   text-time="2012-02-22T06:46:35.609375Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="50200576c149315cf45b3293e427a671"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.281250Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_cd0a0a_256x240.png"
+   text-time="2012-02-22T06:46:35.640625Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="3e450c2a2c66328d9498e7001ad7197c"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.296875Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_gloss-wave_55_5c9ccc_500x100.png"
+   text-time="2012-02-22T06:46:35.687500Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="527d96cb51eaa54fa74a90db078008c4"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.328125Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_flat_0_aaaaaa_40x100.png"
+   text-time="2012-02-22T06:46:35.718750Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="2a44fbdb7360c60122bcf6dcef0387d8"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.343750Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_6da8d5_256x240.png"
+   text-time="2012-02-22T06:46:35.750000Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="e8c27ebeffa1fd7a6182f34603be7f87"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.359375Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_glass_75_d0e5f5_1x400.png"
+   text-time="2012-02-22T06:46:35.796875Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="f5d28f9ed0eead945e114696ae7b4c67"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.375000Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_469bdd_256x240.png"
+   text-time="2012-02-22T06:46:35.828125Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="6572c4e13eaa937ff62163ee7faaf33f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.390625Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_2e83ff_256x240.png"
+   text-time="2012-02-22T06:46:35.859375Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="2b99a5e48d3c3957d03027d36a25e8bb"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.406250Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_217bc0_256x240.png"
+   text-time="2012-02-22T06:46:35.890625Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="7ebb3ccb0f2a3defbe84b59a1c07fd45"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.421875Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_glass_95_fef1ec_1x400.png"
+   text-time="2012-02-22T06:46:35.937500Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="5a3be2d8fff8324d59aec3df7b0a0c83"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.437500Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-icons_d8e7f3_256x240.png"
+   text-time="2012-02-22T06:46:35.968750Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="afc0b83bada23f6dbec51c8e28029efd"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.453125Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_inset-hard_100_f5f8f9_1x100.png"
+   text-time="2012-02-22T06:46:36.000000Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="4ebbd20039de922b3dc09d2c9fa31014"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.468750Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-bg_inset-hard_100_fcfdfd_1x100.png"
+   text-time="2012-02-22T06:46:36.031250Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="bea0bfef4c3c17f578450b58dc805599"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.484375Z"/>
+<entry
+   committed-rev="1867"
+   name="ui-anim_basic_16x16.gif"
+   text-time="2012-02-22T06:46:36.062500Z"
+   committed-date="2010-07-16T03:28:04.218750Z"
+   checksum="03ce3dcc84af110e9da8699a841e5200"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:35.515625Z"/>
+</wc-entries>

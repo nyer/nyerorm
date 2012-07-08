@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2087"
+   name=""
+   committed-date="2010-07-26T04:06:17.796875Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/js"
+   last-author="huangjiu"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   committed-rev="2087"
+   name="jquery-ui-1.8.2.custom.min.js"
+   text-time="2012-02-22T06:46:40.687500Z"
+   committed-date="2010-07-26T04:06:17.796875Z"
+   checksum="e79bee1c9c67bbefdb94a8e98a4e0b35"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:40.640625Z"/>
+</wc-entries>

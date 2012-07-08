@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2085"
+   name=""
+   committed-date="2010-07-26T03:59:23.671875Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/themes"
+   last-author="huangjiu"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   name="redmond"
+   kind="dir"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   name="ui-lightness"
+   kind="dir"/>
+</wc-entries>

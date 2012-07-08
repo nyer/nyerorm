@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1704"
+   name=""
+   committed-date="2010-07-12T02:57:48.046875Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/ui/i18n"
+   last-author="huangjiu"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-eo.js"
+   text-time="2012-02-22T06:46:44.671875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="2da1f68b29e54def1d9176cd3e3bf819"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.218750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-fo.js"
+   text-time="2012-02-22T06:46:44.703125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="55400fdfda214368667107824d0dae00"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.234375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-bs.js"
+   text-time="2012-02-22T06:46:44.734375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="8363b4e78fbf4a98066850ecdb425b9f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.265625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ta.js"
+   text-time="2012-02-22T06:46:44.765625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="dbf63a8adbadf31a1f7a67840069fffa"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.296875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-cs.js"
+   text-time="2012-02-22T06:46:44.890625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="b7dd93b8874fa6e6150e9eca4cc89c48"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.312500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-es.js"
+   text-time="2012-02-22T06:46:44.921875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="469e658bdff7e5297d8c43871dfcf209"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.328125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ko.js"
+   text-time="2012-02-22T06:46:44.953125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="16ca141a47b5afbd843b39350eedf078"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.343750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-eu.js"
+   text-time="2012-02-22T06:46:45.062500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="47c4b68f5686d533cce7025d17740ca3"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.359375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-is.js"
+   text-time="2012-02-22T06:46:45.093750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="c1dabcdd78e37691898f7de6628e79e5"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.375000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-hu.js"
+   text-time="2012-02-22T06:46:45.125000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="d10a3b9a60e652915a61eb71b6702387"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.390625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-no.js"
+   text-time="2012-02-22T06:46:45.171875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="39e5ea02de4d583c3272cb1cb29891fd"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.406250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-sk.js"
+   text-time="2012-02-22T06:46:45.343750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="c1ec1d68d62b69fe2ca4aee41a6135e6"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.421875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-vi.js"
+   text-time="2012-02-22T06:46:45.359375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="0c3d53d7759d6f4f744c182700d32004"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.437500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ms.js"
+   text-time="2012-02-22T06:46:45.390625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="85de03d994b15767e714eeb2efb173dc"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.453125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-uk.js"
+   text-time="2012-02-22T06:46:45.421875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="9ae7e7766bd364c9be12f08797245501"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.468750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-hy.js"
+   text-time="2012-02-22T06:46:45.515625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="64b7ffeca3fedb60fe3ae37695e0e4bf"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.609375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ro.js"
+   text-time="2012-02-22T06:46:45.546875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e11f6d419014dc1f24a0ab425bbfc9db"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.671875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-zh-HK.js"
+   text-time="2012-02-22T06:46:45.578125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="3b93663879ec0f88e19955e86cea1d1f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.687500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-sq.js"
+   text-time="2012-02-22T06:46:45.593750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="98b50eaa85808d599783945a0cf408b8"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.703125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-af.js"
+   text-time="2012-02-22T06:46:45.625000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="2ac3fa0675f3853f0d5bcc2592769e4b"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.718750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ru.js"
+   text-time="2012-02-22T06:46:45.656250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="0ee5360264025e2458fc9d367a6fe426"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.734375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-id.js"
+   text-time="2012-02-22T06:46:45.703125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="cc3243056282ed905e16ff34b2741c22"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.750000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-fr-CH.js"
+   text-time="2012-02-22T06:46:45.734375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="869e87da335f3f14b388a8336fb2cd45"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.765625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-el.js"
+   text-time="2012-02-22T06:46:45.765625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="5e93d1ed09b1b8a8ce1a7887cc9f57ba"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.781250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ar.js"
+   text-time="2012-02-22T06:46:45.796875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="eda17724216d2f76aef99f26505d1bb9"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.796875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery-ui-i18n.js"
+   text-time="2012-02-22T06:46:45.843750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="19d391f78707c5c77fc184d87c2c7be0"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.812500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-sr-SR.js"
+   text-time="2012-02-22T06:46:45.875000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e2827d9153831eb460a5f48937f6ed3f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.828125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-fr.js"
+   text-time="2012-02-22T06:46:45.906250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="b65882e0fc24d57aa93b7497c976e64a"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.843750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-et.js"
+   text-time="2012-02-22T06:46:45.953125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="ec1d0da4ff10be7bca2e8a0a59786fb5"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.859375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-hr.js"
+   text-time="2012-02-22T06:46:46.031250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="dc3ebd300798cb9f64cb470e8d27d596"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.875000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-nl.js"
+   text-time="2012-02-22T06:46:46.062500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="ea6ca76bcbe46f2e390a31213154ada9"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.890625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-zh-TW.js"
+   text-time="2012-02-22T06:46:46.093750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="8a9255b0c0f276f6adb27aa3d3356121"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.906250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-az.js"
+   text-time="2012-02-22T06:46:46.109375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e8da2923abd8096b3393b627453506fe"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.921875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-pl.js"
+   text-time="2012-02-22T06:46:46.140625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="fbe2154c00284293ced0089a44f6a03f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.953125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-th.js"
+   text-time="2012-02-22T06:46:46.265625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="262017023887ac6a457852ce7883d8cd"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.968750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-it.js"
+   text-time="2012-02-22T06:46:46.375000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="b1dc900793cf03c2b05cfba360b96e7f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:43.984375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-sl.js"
+   text-time="2012-02-22T06:46:46.390625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="72d844813e1298ccde575a24579776c2"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.000000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-lt.js"
+   text-time="2012-02-22T06:46:46.421875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="ab35e31daf26251cf8965fcbf7764535"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.015625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-zh-CN.js"
+   text-time="2012-02-22T06:46:46.453125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="26ec0e4199eee7d2e458e65bee26fd62"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.031250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-lv.js"
+   text-time="2012-02-22T06:46:46.484375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="206228f0d14d2139c227ca75b9acab2d"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.046875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ca.js"
+   text-time="2012-02-22T06:46:46.500000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="b9f028d7e49861bcb3ed1de285e88f31"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.062500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-da.js"
+   text-time="2012-02-22T06:46:46.531250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="1e1093539709e0f38f3635b6ab0ac89a"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.078125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-pt-BR.js"
+   text-time="2012-02-22T06:46:46.562500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="5cacf8d38f4f5a52fcff7c549045b9dd"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.093750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-sr.js"
+   text-time="2012-02-22T06:46:46.593750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="a19ff5cda37a4f55fa026262fa917ad1"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.125000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-tr.js"
+   text-time="2012-02-22T06:46:46.609375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="97188c81e5b7a63f978c2141785faa75"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.140625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-fa.js"
+   text-time="2012-02-22T06:46:46.703125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="9cf3106d0b5d9ee367035496e785343d"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.156250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-bg.js"
+   text-time="2012-02-22T06:46:46.750000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="1cff642f65bcc44bf0dcbb76a295b130"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.437500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-de.js"
+   text-time="2012-02-22T06:46:46.765625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="ee50447bc4a04393a169ca41fd0b08bd"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.453125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-en-GB.js"
+   text-time="2012-02-22T06:46:46.812500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="741ccb8405dae85873bdb81c46e73645"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.500000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-sv.js"
+   text-time="2012-02-22T06:46:46.875000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="0b013df9bb8eb826de92e96cbe2b562e"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.531250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-ja.js"
+   text-time="2012-02-22T06:46:46.937500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e17dc3effc1a23583c65d3f1971bdbc0"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.593750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-he.js"
+   text-time="2012-02-22T06:46:46.968750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="674c27ecd84362dd0924adc4e27685d9"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.609375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker-fi.js"
+   text-time="2012-02-22T06:46:47.046875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="c796a52ee6dbe14ee3c3e3f012a69af7"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:44.625000Z"/>
+</wc-entries>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.action.extension" value="do"/>
+    <constant name="struts.objectFactory" value="spring"/>
+
+
+    <package name="default" namespace="/" extends="struts-default">
+    
+    
+    	<interceptors>
+    		<interceptor name="authUser" class="org.nyer.copyright.guessfb.web.interceptor.UserInterceptor"></interceptor>
+    		<interceptor name="loginInterceptor" class="org.nyer.copyright.guessfb.web.interceptor.LoginInterceptor"></interceptor>
+    		<interceptor-stack name="sessionStack">
+    			<interceptor-ref name="defaultStack"></interceptor-ref>
+    			<interceptor-ref name="authUser"></interceptor-ref>
+    		</interceptor-stack>
+    		<interceptor-stack name="loginStack">
+    			<interceptor-ref name="defaultStack"></interceptor-ref>
+    			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+    		</interceptor-stack>
+    	</interceptors>
+    	
+    	<default-interceptor-ref name="sessionStack"></default-interceptor-ref>
+    	
+    	 <default-action-ref name="loginForm" />
+    	 
+    	<global-results>
+    		<result name="login" type="redirect">loginForm.do</result>
+    		<result name="homePage" type="redirect">/homePage.do</result>
+    	</global-results>
+    	 
+    	 
+    	<action name="regForm" class="regFormAction">
+    		<result name="regForm">/reg.ftl</result>
+    		<interceptor-ref name="loginStack"></interceptor-ref>
+    	</action>
+    	<action name="reg" class="regAction">
+    		<result name="success" type="redirect">/homePage.do</result>
+    		<interceptor-ref name="loginStack"></interceptor-ref>
+    	</action>
+    	
+    	<action name="loginForm" class="loginFormAction" >
+    		<result name="loginForm">/login.ftl</result>
+    		<interceptor-ref name="loginStack"></interceptor-ref>
+    	</action>
+    	<action name="login" class="loginAction">
+    		<result name="success" type="redirect">/homePage.do</result>
+    		<interceptor-ref name="loginStack"></interceptor-ref>
+    	</action>
+    	<action name="logout" class="logoutAction">
+    		<result type="redirect">/loginForm.do</result>
+    	</action>
+    	<action name="viewInfo" class="viewInfoAction">
+    		<result>/viewInfo.ftl</result>
+    	</action>
+    	<action name="updateUserInfoForm" class="updateUserInfoFormAction">
+    		<result >/updateUserInfo.ftl</result>
+    	</action>
+    	<action name="updateUserInfo" class="updateUserInfoAction">
+    		<result type="redirect">viewInfo.do</result>
+    	</action>
+    	
+    	<action name="homePage" class="homePageAction">
+    		<result name="success" >/homePage.ftl</result>
+    	</action>
+    	<action name="listUnaddedLeague" class="listUnaddedLeagueAction">
+    		<result>/listUnaddedLeague.ftl</result>
+    	</action>
+    	<action name="listEndedLeague" class="listEndedLeagueAction">
+    		<result>/listEndedLeague.ftl</result>
+    	</action>
+    	<action name="attendLeague" class="attendLeagueAction">
+    		<result type="redirect">/listUnaddedLeague.do</result>
+    	</action>
+    	<action name="viewRank" class="viewRankAction">
+    		<result>/viewRank.ftl</result>
+    	</action>
+    	<action name="viewLeagueDetail" class="viewLeagueDetailAction">
+    		<result>/viewLeagueDetail.ftl</result>
+    	</action>
+    	<action name="viewUnaddedLeague" class="viewUnaddedLeagueAction">
+    		<result>/viewUnaddedLeague.ftl</result>
+    	</action>
+    	<action name="raceRank" class="raceRankAction">
+    		<result>/raceRank.ftl</result>
+    	</action>
+    	<action name="exportLeagueRankToExcel" class="exportLeagueRankToExcel">
+    		<result>/leagueRankExcel.ftl</result>
+    	</action>
+    	<action name="guessRaceForm" class="guessRaceFormAction">
+    		<result>/guessRace.ftl</result>
+    	</action>
+    	<action name="guessRace" class="guessRaceAction">
+    		<result type="redirect">/viewLeagueDetail.do?joinedLeagueId=${joinedLeagueId}</result>
+    	</action>
+    </package>
+
+	
+	<package name="admin" namespace="/admin" extends="struts-default">
+		<interceptors>
+			<interceptor name="adminAuth" class="org.nyer.copyright.guessfb.web.interceptor.AdminInterceptor"></interceptor>
+			<interceptor name="adminLogin" class="org.nyer.copyright.guessfb.web.interceptor.AdminLoginInterceptor"></interceptor>
+			<interceptor-stack name="adminStack">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="adminAuth"></interceptor-ref>
+			</interceptor-stack>
+			<interceptor-stack name="adminLoginStack">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="adminLogin"></interceptor-ref>
+			</interceptor-stack>
+			
+		</interceptors>
+		
+		<default-interceptor-ref name="adminStack"/>
+		
+		
+		<default-action-ref name="adminLoginForm"></default-action-ref>
+		
+		<global-results>
+			<result name="login">/admin/adminLogin.jsp</result>
+			<result name="error">/admin/adminError.jsp</result>
+    		<result name="adminHomePage" type="redirect">adminHomePage.do</result>
+		</global-results>
+		<action name="index" >
+			<result>/admin/index.jsp</result>
+		</action>
+		<action name="adminLoginForm" >
+    		<result>/admin/adminLogin.jsp</result>
+    		<interceptor-ref name="adminLoginStack"></interceptor-ref>
+    	</action>
+    	<action name="adminLogin" class="adminLoginAction">
+    		<result type="redirect">/admin/index.do</result>
+    		<interceptor-ref name="adminLoginStack"></interceptor-ref>
+    	</action>
+    	<action name="adminLogout" class="adminLogoutAction">
+    		<result type="redirect">/admin/adminLoginForm.do</result>
+    	</action>
+    	<action name="adminHomePage" class="adminHomePageAction">
+    		<result name="success" >/admin/adminHomePage.jsp</result>
+    	</action>
+    	
+    	<action name="listLeague" class="listLeagueAction">
+    		<result name="success">/admin/leagueList.jsp</result>
+    	</action>
+    	<action name="viewLeague" class="viewLeagueAction">
+    		<result name="success">/admin/viewLeague.jsp</result>
+    	</action>
+    	<action name="addLeagueForm">
+    		<result >/admin/addLeague.jsp</result>
+    	</action>
+    	<action name="addLeague" class="addLeagueAction">
+    		<result name="success" type="redirect">listLeague.do</result>
+    	</action>
+    	<action name="editLeagueForm" class="editLeagueFormAction">
+    		<result >/admin/editLeague.jsp</result>
+    	</action>
+    	<action name="editLeague" class="editLeagueAction">
+    		<result type="redirect">listLeague.do</result>
+    	</action>
+    	<action name="deleteLeague" class="deleteLeagueAction">
+    		<result type="redirect">listLeague.do</result>
+    	</action>
+    	
+    	<action name="listRace" class="listRaceAction">
+    		<result>/admin/listRace.jsp</result>
+    	</action>
+    	<action name="viewRace" class="viewRaceAction">
+    		<result>/admin/viewRace.jsp</result>
+    	</action>
+    	<action name="editRaceForm" class="editRaceFormAction">
+    		<result>/admin/editRace.jsp</result>
+    	</action>
+    	<action name="editRace" class="editRaceAction">
+    		<result type="redirect">/admin/listRace.do?leagueId=${leagueId}</result>
+    	</action>
+    	<action name="addRaceForm" class="addRaceFormAction">
+    		<result>/admin/addRace.jsp</result>
+    	</action>
+    	<action name="addRace" class="addRaceAction">
+    		<result type="redirect">/admin/listRace.do?leagueId=${leagueId}</result>
+    	</action>
+    	<action name="deleteRace" class="deleteRaceAction">
+    		<result type="redirect">/admin/listRace.do?leagueId=${leagueId}</result>
+    	</action>
+    	<action name="scoreRaceForm" class="scoreRaceFormAction">
+    		<result >/admin/scoreRace.jsp</result>
+    	</action>
+    	<action name="scoreRace" class="scoreRaceAction">
+    		<result type="redirect">/admin/listRace.do?leagueId=${leagueId}</result>
+    	</action>
+	</package>
+</struts>

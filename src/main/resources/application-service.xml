@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="userService" class="org.nyer.copyright.guessfb.service.UserService">
+	</bean>
+	
+	<bean id="leagueService" class="org.nyer.copyright.guessfb.service.LeagueService"/>
+	<bean id="raceService" class="org.nyer.copyright.guessfb.service.RaceService"/>
+	
+	<bean id="joinedLeagueService" class="org.nyer.copyright.guessfb.service.JoinedLeagueService"/>
+	<bean id="joinedRaceService" class="org.nyer.copyright.guessfb.service.JoinedRaceService"/>
+	<bean id="leagueRankService" class="org.nyer.copyright.guessfb.service.LeagueRankService"/>
+</beans>	

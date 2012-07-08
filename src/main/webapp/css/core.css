@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {margin: 0;padding: 0;}
+a:ACTIVE{
+	color:#000000;
+}
+a:hover{
+	color:grey;
+}
+.container{
+	background-color:white;
+}
+
+.header{
+	background-color:#C2C4E5;
+	position:relative;
+}
+.header .w-h{
+	position: relative;
+	width:600px;
+	margin:0px auto;
+	height:35px;
+}
+.header .nav{
+	left:10px;
+	top:0px;
+}
+.nav li{
+	list-style:none outside none;
+}
+.nav li,.nav a{
+	display:inline;
+	height:35px;
+	line-height:35px;
+	float:left;
+}
+.nav a{
+	text-decoration:none;
+	display: block;
+	width:100%;
+	text-align:center;
+}
+.nav li {
+	width:130px;
+}
+.nav li.selected{
+	background-color:#B9BAEE;
+}
+
+.header .userAct{
+	position: absolute;
+	float: right;
+	right:10px;
+	top:10px;
+	font-size:10px;
+}
+.userAct .out{
+	float:right;
+}
+.userAct .sep{
+	float:right;
+	margin:0px 5px;
+}
+.userAct .name{
+	float:right;
+}
+
+.main{
+	background-color:white;
+}
+.main .w-m{
+	width:600px;
+	margin:0px auto;
+}
+
+.table{
+	border-collapse:collapse;
+}
+.table td{
+	text-align:center;
+	border:1px solid grey;
+}
+.table .tableTitle{
+	background-color:#CBD8DC;
+}

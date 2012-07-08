@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1704"
+   name=""
+   committed-date="2010-07-12T02:57:48.046875Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/ui/minified"
+   last-author="huangjiu"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.core.min.js"
+   text-time="2012-02-22T06:46:41.515625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e46d4baecacf29b1fc36dcf5eb17350f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.000000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.mouse.min.js"
+   text-time="2012-02-22T06:46:41.546875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="760e43c53812f40ef48e44c9b5367940"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.015625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.scale.min.js"
+   text-time="2012-02-22T06:46:41.578125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="8809dc3f045654dffadc6cc53e6767bf"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.031250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.clip.min.js"
+   text-time="2012-02-22T06:46:41.593750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="1ec959ad1d3d40c76bc2efa7c6b08d0a"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.046875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.progressbar.min.js"
+   text-time="2012-02-22T06:46:41.625000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e35aafb961361e8bef1a21ddc426b772"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.062500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.tabs.min.js"
+   text-time="2012-02-22T06:46:41.671875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="98e22c8b2de97a5d713eb982a905ac9f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.078125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.core.min.js"
+   text-time="2012-02-22T06:46:41.703125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="9da6b290431223768c34e9e37d208cff"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.093750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.blind.min.js"
+   text-time="2012-02-22T06:46:41.750000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="9bf5a848f44f7040612fd7b99a4fd499"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.109375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.shake.min.js"
+   text-time="2012-02-22T06:46:41.765625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="fac6d79e35b34732c218ed6c1a5a099c"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.125000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.dialog.min.js"
+   text-time="2012-02-22T06:46:41.796875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="662bee10a955b508c707199a817045f8"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.140625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.autocomplete.min.js"
+   text-time="2012-02-22T06:46:41.843750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="b4eb7486907d4d2cffd40bbefb7c97c3"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.156250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.accordion.min.js"
+   text-time="2012-02-22T06:46:41.875000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="723e4d29521e23a54dfacefc92787b2e"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.171875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.slide.min.js"
+   text-time="2012-02-22T06:46:41.953125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="18ed28254e851d2be307d6056527f1fd"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.187500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.explode.min.js"
+   text-time="2012-02-22T06:46:41.968750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="c2671aa4b72649376785dc1374ddcf2b"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.203125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.selectable.min.js"
+   text-time="2012-02-22T06:46:42.000000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="a293f56f3545786825d160021c446b9f"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.218750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.position.min.js"
+   text-time="2012-02-22T06:46:42.046875Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="c31148faeb7b1cd01ca8b608d1737162"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.234375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.drop.min.js"
+   text-time="2012-02-22T06:46:42.156250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="efc137e613a061b49beac765af8ffdc6"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.250000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.draggable.min.js"
+   text-time="2012-02-22T06:46:42.203125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="8bede1e53cf870243e6223b9b5d1e0c4"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.265625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.droppable.min.js"
+   text-time="2012-02-22T06:46:42.250000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="33750e7dbfe03244cc326d400453d2f9"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.281250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.highlight.min.js"
+   text-time="2012-02-22T06:46:42.281250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="664df8bcb437c4c6ee46ebbabf5c9d2b"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.312500Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.button.min.js"
+   text-time="2012-02-22T06:46:42.343750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e3bdc3bd16aeccbcbede58337507ea74"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.328125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.datepicker.min.js"
+   text-time="2012-02-22T06:46:42.390625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e635535eb7360ee0c1d0413ba5753f71"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.343750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.sortable.min.js"
+   text-time="2012-02-22T06:46:42.468750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="e2336a19db2164856c301274e7f2f5a3"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.359375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.bounce.min.js"
+   text-time="2012-02-22T06:46:42.500000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="b4eb3b66fd4f37ce763d8ac31d45ac59"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.375000Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.pulsate.min.js"
+   text-time="2012-02-22T06:46:42.562500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="50018e0bbb9ae853578ef681c38a74d7"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.390625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.resizable.min.js"
+   text-time="2012-02-22T06:46:42.593750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="bb03164e45b7f61c3227f3af7090129b"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.406250Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.slider.min.js"
+   text-time="2012-02-22T06:46:42.625000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="6c43fd537d64f8b68843a9d0121fa8bf"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.421875Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.ui.widget.min.js"
+   text-time="2012-02-22T06:46:42.656250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="dba27d64361ea697fd46643f925de3d3"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.453125Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.transfer.min.js"
+   text-time="2012-02-22T06:46:42.703125Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="dd8b2d3469148bb5116c0e3846d9ab9a"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.468750Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.effects.fold.min.js"
+   text-time="2012-02-22T06:46:42.734375Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="2fb1153a92f2443089efc7193629e7f3"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:41.484375Z"/>
+</wc-entries>

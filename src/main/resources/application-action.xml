@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+     http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd">
+	
+	<bean id="helloListAction" class="org.nyer.copyright.guessfb.web.action.test.HelloListAction" scope="prototype">
+		<property name="baseService" ref="baseService"></property>
+	</bean>
+	<bean id="helloAddAction" class="org.nyer.copyright.guessfb.web.action.test.HelloAddAction" scope="prototype">
+		<property name="baseService" ref="baseService"></property>
+	</bean>
+	<bean id="helloEditFormAction" class="org.nyer.copyright.guessfb.web.action.test.HelloEditFormAction" scope="prototype">
+		<property name="baseService" ref="baseService"></property>
+	</bean>
+	<bean id="helloEditAction" class="org.nyer.copyright.guessfb.web.action.test.HelloEditAction" scope="prototype">
+		<property name="baseService" ref="baseService"></property>
+	</bean>
+	<bean id="helloDeleteAction" class="org.nyer.copyright.guessfb.web.action.test.HelloDeleteAction" scope="prototype">
+		<property name="baseService" ref="baseService"></property>
+	</bean>
+	
+	<bean id="regFormAction" class="org.nyer.copyright.guessfb.web.action.RegFormAction" scope="prototype">
+	
+	</bean>
+	<bean id="regAction" class="org.nyer.copyright.guessfb.web.action.RegAction" scope="prototype">
+		<property name="userService" ref="userService"></property>
+	</bean>
+	
+	<bean id="loginFormAction" class="org.nyer.copyright.guessfb.web.action.LoginFormAction" scope="prototype">
+	
+	</bean>
+	<bean id="loginAction" class="org.nyer.copyright.guessfb.web.action.LoginAction" scope="prototype">
+		<property name="userService" ref="userService"/>
+	</bean>
+	<bean id="logoutAction" class="org.nyer.copyright.guessfb.web.action.LogoutAction" scope="prototype">
+	</bean>
+	<bean id="viewInfoAction" class="org.nyer.copyright.guessfb.web.action.ViewInfoAction" scope="prototype">
+	</bean>
+	<bean id="updateUserInfoFormAction" class="org.nyer.copyright.guessfb.web.action.UpdateUserInfoFormAction" scope="prototype">
+	</bean>
+	<bean id="updateUserInfoAction" class="org.nyer.copyright.guessfb.web.action.UpdateUserInfoAction" scope="prototype">
+		<property name="userService" ref="userService"/>
+	</bean>
+	
+	<bean id="homePageAction" class="org.nyer.copyright.guessfb.web.action.HomePageAction" scope="prototype">
+		<property name="joinedLeagueService" ref="joinedLeagueService"/>
+	</bean>
+	<bean id="listUnaddedLeagueAction" class="org.nyer.copyright.guessfb.web.action.ListUnaddedLeagueAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"/>
+	</bean>
+	<bean id="listEndedLeagueAction" class="org.nyer.copyright.guessfb.web.action.ListEndedLeagueAction" scope="prototype">
+		<property name="joinedLeagueService" ref="joinedLeagueService"/>
+	</bean>
+	<bean id="attendLeagueAction" class="org.nyer.copyright.guessfb.web.action.AttendLeagueAction" scope="prototype">
+		<property name="joinedLeagueService" ref="joinedLeagueService"/>
+	</bean>
+	<bean id="viewRankAction" class="org.nyer.copyright.guessfb.web.action.ViewRankAction" scope="prototype">
+		<property name="joinedLeagueService" ref="joinedLeagueService"></property>
+		<property name="leagueRankService" ref="leagueRankService"></property>
+	</bean>
+	<bean id="viewLeagueDetailAction" class="org.nyer.copyright.guessfb.web.action.ViewLeagueDetailAction" scope="prototype">
+		<property name="raceService" ref="raceService"/>
+		<property name="joinedRaceService" ref="joinedRaceService"/>
+		<property name="joinedLeagueService" ref="joinedLeagueService"></property>
+	</bean>
+	<bean id="viewUnaddedLeagueAction" class="org.nyer.copyright.guessfb.web.action.ViewUnaddedLeagueAction">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="raceRankAction" class="org.nyer.copyright.guessfb.web.action.RaceRankAction">
+		<property name="joinedRaceService" ref="joinedRaceService"/>
+	</bean>
+	<bean id="exportLeagueRankToExcel" class="org.nyer.copyright.guessfb.web.action.ExportLeagueRankToExcel" scope="prototype">
+		<property name="leagueRankService" ref="leagueRankService"></property>
+	</bean>
+	<bean id="guessRaceFormAction" class="org.nyer.copyright.guessfb.web.action.GuessRaceFormAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="guessRaceAction" class="org.nyer.copyright.guessfb.web.action.GuessRaceAction" scope="prototype">
+		<property name="joinedRaceService" ref="joinedRaceService"></property>
+		<property name="joinedLeagueService" ref="joinedLeagueService"></property>
+	</bean>
+	
+	
+	<!-- admin action bean -->
+	<bean id="adminLoginAction" class="org.nyer.copyright.guessfb.web.action.admin.AdminLoginAction" scope="prototype">
+		<property name="userService" ref="userService"/>
+	</bean>
+	<bean id="adminLogoutAction" class="org.nyer.copyright.guessfb.web.action.admin.AdminLogoutAction" scope="prototype">
+	</bean>
+	<bean id="adminHomePageAction" class="org.nyer.copyright.guessfb.web.action.admin.AdminHomePageAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	
+	<bean id="listLeagueAction" class="org.nyer.copyright.guessfb.web.action.admin.ListLeagueAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	<bean id="viewLeagueAction" class="org.nyer.copyright.guessfb.web.action.admin.ViewLeagueAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	<bean id="addLeagueAction" class="org.nyer.copyright.guessfb.web.action.admin.AddLeagueAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	<bean id="editLeagueFormAction" class="org.nyer.copyright.guessfb.web.action.admin.EditLeagueFormAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	<bean id="editLeagueAction" class="org.nyer.copyright.guessfb.web.action.admin.EditLeagueAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	<bean id="deleteLeagueAction" class="org.nyer.copyright.guessfb.web.action.admin.DeleteLeagueAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	
+	<bean id="listRaceAction" class="org.nyer.copyright.guessfb.web.action.admin.ListRaceAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="viewRaceAction" class="org.nyer.copyright.guessfb.web.action.admin.ViewRaceAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="addRaceFormAction" class="org.nyer.copyright.guessfb.web.action.admin.AddRaceFormAction" scope="prototype">
+		<property name="leagueService" ref="leagueService"></property>
+	</bean>
+	<bean id="addRaceAction" class="org.nyer.copyright.guessfb.web.action.admin.AddRaceAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="editRaceFormAction" class="org.nyer.copyright.guessfb.web.action.admin.EditRaceFormAction" scope="prototype">
+		<property name="raceService" ref="raceService"/>
+	</bean>
+	<bean id="editRaceAction" class="org.nyer.copyright.guessfb.web.action.admin.EditRaceAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="deleteRaceAction" class="org.nyer.copyright.guessfb.web.action.admin.DeleteRaceAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="scoreRaceFormAction" class="org.nyer.copyright.guessfb.web.action.admin.ScoreRaceFormAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+	</bean>
+	<bean id="scoreRaceAction" class="org.nyer.copyright.guessfb.web.action.admin.ScoreRaceAction" scope="prototype">
+		<property name="raceService" ref="raceService"></property>
+		<property name="joinedLeagueService" ref="joinedLeagueService"></property>
+		<property name="joinedRaceService" ref="joinedRaceService"></property>
+		<property name="leagueRankService" ref="leagueRankService"></property>
+	</bean>
+</beans>	

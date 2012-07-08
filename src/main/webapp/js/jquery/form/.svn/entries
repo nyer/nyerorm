@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2869"
+   name=""
+   committed-date="2010-08-19T12:52:52.687935Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/form"
+   last-author="dengjibin"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   committed-rev="2869"
+   name="jquery.form.js"
+   text-time="2012-02-22T06:46:34.796875Z"
+   committed-date="2010-08-19T12:52:52.687935Z"
+   checksum="cd29443ff5b4698146542cb348b35a48"
+   last-author="dengjibin"
+   kind="file"
+   prop-time="2012-02-22T06:46:34.765625Z"/>
+</wc-entries>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1704"
+   name=""
+   committed-date="2010-07-12T02:57:48.046875Z"
+   url="svn://192.168.12.221/bcp/CodeResources/bcp/WebRoot/js/jquery/external"
+   last-author="huangjiu"
+   kind="dir"
+   uuid="615babc4-543d-4dda-87f6-ec3efcc156b1"
+   repos="svn://192.168.12.221"
+   revision="9412"/>
+<entry
+   committed-rev="1704"
+   name="jquery.bgiframe-2.1.1.js"
+   text-time="2012-02-22T06:46:34.515625Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="a868cdfcb65ff0bb01f30b5a4f56d080"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:34.359375Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.cookie.js"
+   text-time="2012-02-22T06:46:34.531250Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="20a0023596a032da17c48c7ffe08087a"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:34.375000Z"/>
+<entry
+   committed-rev="1704"
+   name="qunit.css"
+   text-time="2012-02-22T06:46:34.562500Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="318b10a83d5c20e55bd8e02b9cc92535"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:34.390625Z"/>
+<entry
+   committed-rev="1704"
+   name="jquery.metadata.js"
+   text-time="2012-02-22T06:46:34.593750Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="1910e4f6f1a0c7ce784a2e7d13c3765c"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:34.468750Z"/>
+<entry
+   committed-rev="1704"
+   name="qunit.js"
+   text-time="2012-02-22T06:46:34.625000Z"
+   committed-date="2010-07-12T02:57:48.046875Z"
+   checksum="d6dabcb1cfdbe0c4dbb4bd7bfadb84f0"
+   last-author="huangjiu"
+   kind="file"
+   prop-time="2012-02-22T06:46:34.484375Z"/>
+</wc-entries>

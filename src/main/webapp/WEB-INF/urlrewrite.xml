@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        
+<urlrewrite decode-using="null">
+
+    <rule>
+        <from>^/?$</from>
+        <to >/loginForm.do</to>
+    </rule>
+    
+    <rule>
+    	<from>^/admin/?$</from>
+    	<to >/admin/adminLoginForm.do</to>
+    </rule>
+
+</urlrewrite>
+
